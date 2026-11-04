@@ -415,11 +415,12 @@
 
   // ---------------------------------------------------------------- map (canvas: county outlines + a dot per place)
   let SHAPES = null, cam = null;
-  const LAT0 = 35.8, KX = Math.cos(LAT0 * Math.PI / 180);
-  const proj = (lo, la) => [(lo + 86.0) * KX, -(la - LAT0)];
+  // Georgia's middle and bounding box (the app's MapScreen centers on 32.68, -83.22); these were Tennessee's until 11-04
+  const LAT0 = 32.7, KX = Math.cos(LAT0 * Math.PI / 180);
+  const proj = (lo, la) => [(lo + 83.2) * KX, -(la - LAT0)];
 
   function fitCam(w, h) {
-    const [x0, y0] = proj(-90.35, 36.72), [x1, y1] = proj(-81.6, 34.95);
+    const [x0, y0] = proj(-85.65, 35.04), [x1, y1] = proj(-80.8, 30.32);
     const k = Math.min(w / (x1 - x0), h / (y1 - y0)) * 0.95;
     return { k, x: (w - (x1 - x0) * k) / 2 - x0 * k, y: (h - (y1 - y0) * k) / 2 - y0 * k };
   }

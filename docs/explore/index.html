@@ -2,7 +2,7 @@
 <html lang="en" data-base="/georgia-eats">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-38G1TTHIYoFDFCem0ptz54mvb+y9N01qu8GLLu0dOZk=' 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-jlgkZqQDFmL8Qwb0BnS0nWRgWhbHdCmeTCbVj8EE+ZY='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-GJBhd20krrh3nJG6lKPJ7kYLcrb4D5k/ae7brHp7uYI=' 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-jlgkZqQDFmL8Qwb0BnS0nWRgWhbHdCmeTCbVj8EE+ZY='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Search Georgia Restaurants: Lemon Pepper Wings &amp; More</title>
 <meta name="description" content="Look up 23,274 Georgia restaurants by name, town, street, zip or dish, and map 51 hand-checked places from lemon pepper wings to Buford Highway.">
@@ -759,11 +759,12 @@
 
   // ---------------------------------------------------------------- map (canvas: county outlines + a dot per place)
   let SHAPES = null, cam = null;
-  const LAT0 = 35.8, KX = Math.cos(LAT0 * Math.PI / 180);
-  const proj = (lo, la) => [(lo + 86.0) * KX, -(la - LAT0)];
+  // Georgia's middle and bounding box (the app's MapScreen centers on 32.68, -83.22); these were Tennessee's until 11-04
+  const LAT0 = 32.7, KX = Math.cos(LAT0 * Math.PI / 180);
+  const proj = (lo, la) => [(lo + 83.2) * KX, -(la - LAT0)];
 
   function fitCam(w, h) {
-    const [x0, y0] = proj(-90.35, 36.72), [x1, y1] = proj(-81.6, 34.95);
+    const [x0, y0] = proj(-85.65, 35.04), [x1, y1] = proj(-80.8, 30.32);
     const k = Math.min(w / (x1 - x0), h / (y1 - y0)) * 0.95;
     return { k, x: (w - (x1 - x0) * k) / 2 - x0 * k, y: (h - (y1 - y0) * k) / 2 - y0 * k };
   }
