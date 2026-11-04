@@ -1,0 +1,756 @@
+{
+ "generated": "2026-11-03",
+ "domain": "https://nickstrom5.github.io/georgia-eats",
+ "restaurants": 23274,
+ "places_incl_hidden": 24495,
+ "towns": 459,
+ "counties": 159,
+ "on_an_official_list": 6234,
+ "hand_checked_on_a_guide": 51,
+ "serves_alcohol_state_license": 5451,
+ "guide_soul": 5,
+ "guide_buford": 9,
+ "guide_wings": 21,
+ "guide_bbq": 3,
+ "guide_lowcountry": 7,
+ "guide_peach": 1,
+ "guide_gachain": 1,
+ "oldest": 7,
+ "honors": 75,
+ "michelin": {
+  "MICHELIN Recommended": 42,
+  "Bib Gourmand": 12,
+  "1 MICHELIN Star": 10
+ },
+ "james_beard": 28,
+ "americas_classics": 2,
+ "permits_updated": "June 2026",
+ "city_pages": {
+  "Atlanta": {
+   "restaurants": 2706,
+   "listed": 65,
+   "soul": 4,
+   "buford": 0,
+   "wings": 11,
+   "bbq": 2,
+   "lowcountry": 0,
+   "peach": 0,
+   "gachain": 0,
+   "hon": 47,
+   "oldest": 5
+  },
+  "Savannah": {
+   "restaurants": 757,
+   "listed": 7,
+   "soul": 1,
+   "buford": 0,
+   "wings": 0,
+   "bbq": 0,
+   "lowcountry": 5,
+   "peach": 0,
+   "gachain": 0,
+   "hon": 4,
+   "oldest": 1
+  },
+  "Decatur": {
+   "restaurants": 388,
+   "listed": 6,
+   "soul": 0,
+   "buford": 0,
+   "wings": 1,
+   "bbq": 0,
+   "lowcountry": 0,
+   "peach": 0,
+   "gachain": 0,
+   "hon": 5,
+   "oldest": 0
+  },
+  "Doraville": {
+   "restaurants": 92,
+   "listed": 9,
+   "soul": 0,
+   "buford": 9,
+   "wings": 0,
+   "bbq": 0,
+   "lowcountry": 0,
+   "peach": 0,
+   "gachain": 0,
+   "hon": 4,
+   "oldest": 0
+  }
+ },
+ "cities_without_a_page": {
+  "Marietta": 3,
+  "Roswell": 2,
+  "Chamblee": 2,
+  "Athens": 0,
+  "Augusta": 1,
+  "Macon": 0,
+  "Columbus": 0,
+  "Brookhaven": 1,
+  "Sandy Springs": 1,
+  "Alpharetta": 1,
+  "Duluth": 2,
+  "Brunswick": 1,
+  "St. Simons Island": 0,
+  "Tybee Island": 0,
+  "Darien": 1,
+  "Jonesboro": 1,
+  "East Point": 1,
+  "College Park": 1,
+  "Smyrna": 1,
+  "Tucker": 0,
+  "Fort Valley": 1
+ },
+ "noindex_pages": [],
+ "web_app_data_bytes": {
+  "data/core.json": {
+   "raw": 1900075,
+   "gzip": 381192
+  },
+  "data/detail-appling-county.json": {
+   "raw": 2093,
+   "gzip": 701
+  },
+  "data/detail-atkinson-county.json": {
+   "raw": 477,
+   "gzip": 291
+  },
+  "data/detail-bacon-county.json": {
+   "raw": 1350,
+   "gzip": 527
+  },
+  "data/detail-baker-county.json": {
+   "raw": 51,
+   "gzip": 70
+  },
+  "data/detail-baldwin-county.json": {
+   "raw": 9370,
+   "gzip": 2346
+  },
+  "data/detail-banks-county.json": {
+   "raw": 4404,
+   "gzip": 1268
+  },
+  "data/detail-barrow-county.json": {
+   "raw": 13619,
+   "gzip": 3172
+  },
+  "data/detail-bartow-county.json": {
+   "raw": 20487,
+   "gzip": 4556
+  },
+  "data/detail-ben-hill-county.json": {
+   "raw": 2192,
+   "gzip": 722
+  },
+  "data/detail-berrien-county.json": {
+   "raw": 1554,
+   "gzip": 558
+  },
+  "data/detail-bibb-county.json": {
+   "raw": 33874,
+   "gzip": 6814
+  },
+  "data/detail-bleckley-county.json": {
+   "raw": 1438,
+   "gzip": 578
+  },
+  "data/detail-brantley-county.json": {
+   "raw": 493,
+   "gzip": 245
+  },
+  "data/detail-brooks-county.json": {
+   "raw": 1528,
+   "gzip": 578
+  },
+  "data/detail-bryan-county.json": {
+   "raw": 7877,
+   "gzip": 1903
+  },
+  "data/detail-bulloch-county.json": {
+   "raw": 14832,
+   "gzip": 3311
+  },
+  "data/detail-burke-county.json": {
+   "raw": 3014,
+   "gzip": 890
+  },
+  "data/detail-butts-county.json": {
+   "raw": 4943,
+   "gzip": 1393
+  },
+  "data/detail-calhoun-county.json": {
+   "raw": 231,
+   "gzip": 116
+  },
+  "data/detail-camden-county.json": {
+   "raw": 8767,
+   "gzip": 2108
+  },
+  "data/detail-candler-county.json": {
+   "raw": 1789,
+   "gzip": 591
+  },
+  "data/detail-carroll-county.json": {
+   "raw": 22590,
+   "gzip": 5034
+  },
+  "data/detail-catoosa-county.json": {
+   "raw": 9821,
+   "gzip": 2394
+  },
+  "data/detail-charlton-county.json": {
+   "raw": 1293,
+   "gzip": 490
+  },
+  "data/detail-chatham-county.json": {
+   "raw": 98649,
+   "gzip": 18955
+  },
+  "data/detail-chattahoochee-county.json": {
+   "raw": 1386,
+   "gzip": 598
+  },
+  "data/detail-chattooga-county.json": {
+   "raw": 1972,
+   "gzip": 694
+  },
+  "data/detail-cherokee-county.json": {
+   "raw": 44839,
+   "gzip": 9000
+  },
+  "data/detail-clarke-county.json": {
+   "raw": 35706,
+   "gzip": 6914
+  },
+  "data/detail-clay-county.json": {
+   "raw": 81,
+   "gzip": 82
+  },
+  "data/detail-clayton-county.json": {
+   "raw": 37253,
+   "gzip": 8277
+  },
+  "data/detail-clinch-county.json": {
+   "raw": 835,
+   "gzip": 382
+  },
+  "data/detail-cobb-county.json": {
+   "raw": 144462,
+   "gzip": 28707
+  },
+  "data/detail-coffee-county.json": {
+   "raw": 5552,
+   "gzip": 1466
+  },
+  "data/detail-colquitt-county.json": {
+   "raw": 5686,
+   "gzip": 1517
+  },
+  "data/detail-columbia-county.json": {
+   "raw": 23820,
+   "gzip": 5279
+  },
+  "data/detail-cook-county.json": {
+   "raw": 1903,
+   "gzip": 673
+  },
+  "data/detail-coweta-county.json": {
+   "raw": 24629,
+   "gzip": 5437
+  },
+  "data/detail-crawford-county.json": {
+   "raw": 415,
+   "gzip": 260
+  },
+  "data/detail-crisp-county.json": {
+   "raw": 3639,
+   "gzip": 1049
+  },
+  "data/detail-dade-county.json": {
+   "raw": 1797,
+   "gzip": 678
+  },
+  "data/detail-dawson-county.json": {
+   "raw": 7712,
+   "gzip": 1999
+  },
+  "data/detail-decatur-county.json": {
+   "raw": 3691,
+   "gzip": 1057
+  },
+  "data/detail-dekalb-county.json": {
+   "raw": 136993,
+   "gzip": 27247
+  },
+  "data/detail-dodge-county.json": {
+   "raw": 1961,
+   "gzip": 742
+  },
+  "data/detail-dooly-county.json": {
+   "raw": 1082,
+   "gzip": 490
+  },
+  "data/detail-dougherty-county.json": {
+   "raw": 17161,
+   "gzip": 3730
+  },
+  "data/detail-douglas-county.json": {
+   "raw": 20115,
+   "gzip": 4648
+  },
+  "data/detail-early-county.json": {
+   "raw": 1597,
+   "gzip": 518
+  },
+  "data/detail-echols-county.json": {
+   "raw": 51,
+   "gzip": 70
+  },
+  "data/detail-effingham-county.json": {
+   "raw": 6063,
+   "gzip": 1547
+  },
+  "data/detail-elbert-county.json": {
+   "raw": 2705,
+   "gzip": 800
+  },
+  "data/detail-emanuel-county.json": {
+   "raw": 2820,
+   "gzip": 823
+  },
+  "data/detail-evans-county.json": {
+   "raw": 1075,
+   "gzip": 446
+  },
+  "data/detail-fannin-county.json": {
+   "raw": 8690,
+   "gzip": 2110
+  },
+  "data/detail-fayette-county.json": {
+   "raw": 26855,
+   "gzip": 5747
+  },
+  "data/detail-floyd-county.json": {
+   "raw": 17109,
+   "gzip": 3989
+  },
+  "data/detail-forsyth-county.json": {
+   "raw": 37711,
+   "gzip": 7914
+  },
+  "data/detail-franklin-county.json": {
+   "raw": 4918,
+   "gzip": 1291
+  },
+  "data/detail-fulton-county.json": {
+   "raw": 320129,
+   "gzip": 59646
+  },
+  "data/detail-gilmer-county.json": {
+   "raw": 6378,
+   "gzip": 1715
+  },
+  "data/detail-glascock-county.json": {
+   "raw": 111,
+   "gzip": 87
+  },
+  "data/detail-glynn-county.json": {
+   "raw": 29844,
+   "gzip": 5893
+  },
+  "data/detail-gordon-county.json": {
+   "raw": 6973,
+   "gzip": 1836
+  },
+  "data/detail-grady-county.json": {
+   "raw": 2153,
+   "gzip": 731
+  },
+  "data/detail-greene-county.json": {
+   "raw": 4722,
+   "gzip": 1246
+  },
+  "data/detail-gwinnett-county.json": {
+   "raw": 171445,
+   "gzip": 33349
+  },
+  "data/detail-habersham-county.json": {
+   "raw": 7702,
+   "gzip": 1897
+  },
+  "data/detail-hall-county.json": {
+   "raw": 35702,
+   "gzip": 7434
+  },
+  "data/detail-hancock-county.json": {
+   "raw": 420,
+   "gzip": 279
+  },
+  "data/detail-haralson-county.json": {
+   "raw": 2605,
+   "gzip": 821
+  },
+  "data/detail-harris-county.json": {
+   "raw": 2801,
+   "gzip": 713
+  },
+  "data/detail-hart-county.json": {
+   "raw": 3585,
+   "gzip": 1030
+  },
+  "data/detail-heard-county.json": {
+   "raw": 908,
+   "gzip": 398
+  },
+  "data/detail-henry-county.json": {
+   "raw": 42411,
+   "gzip": 8735
+  },
+  "data/detail-houston-county.json": {
+   "raw": 32390,
+   "gzip": 6794
+  },
+  "data/detail-irwin-county.json": {
+   "raw": 651,
+   "gzip": 293
+  },
+  "data/detail-jackson-county.json": {
+   "raw": 10797,
+   "gzip": 2646
+  },
+  "data/detail-jasper-county.json": {
+   "raw": 1689,
+   "gzip": 544
+  },
+  "data/detail-jeff-davis-county.json": {
+   "raw": 1606,
+   "gzip": 635
+  },
+  "data/detail-jefferson-county.json": {
+   "raw": 2147,
+   "gzip": 709
+  },
+  "data/detail-jenkins-county.json": {
+   "raw": 786,
+   "gzip": 392
+  },
+  "data/detail-johnson-county.json": {
+   "raw": 610,
+   "gzip": 343
+  },
+  "data/detail-jones-county.json": {
+   "raw": 2140,
+   "gzip": 702
+  },
+  "data/detail-lamar-county.json": {
+   "raw": 2033,
+   "gzip": 731
+  },
+  "data/detail-lanier-county.json": {
+   "raw": 889,
+   "gzip": 404
+  },
+  "data/detail-laurens-county.json": {
+   "raw": 8076,
+   "gzip": 1993
+  },
+  "data/detail-lee-county.json": {
+   "raw": 2162,
+   "gzip": 753
+  },
+  "data/detail-liberty-county.json": {
+   "raw": 10263,
+   "gzip": 2532
+  },
+  "data/detail-lincoln-county.json": {
+   "raw": 824,
+   "gzip": 338
+  },
+  "data/detail-long-county.json": {
+   "raw": 536,
+   "gzip": 260
+  },
+  "data/detail-lowndes-county.json": {
+   "raw": 23695,
+   "gzip": 4980
+  },
+  "data/detail-lumpkin-county.json": {
+   "raw": 5110,
+   "gzip": 1354
+  },
+  "data/detail-macon-county.json": {
+   "raw": 1153,
+   "gzip": 495
+  },
+  "data/detail-madison-county.json": {
+   "raw": 2121,
+   "gzip": 734
+  },
+  "data/detail-marion-county.json": {
+   "raw": 442,
+   "gzip": 260
+  },
+  "data/detail-mcduffie-county.json": {
+   "raw": 3182,
+   "gzip": 931
+  },
+  "data/detail-mcintosh-county.json": {
+   "raw": 3194,
+   "gzip": 870
+  },
+  "data/detail-meriwether-county.json": {
+   "raw": 2459,
+   "gzip": 698
+  },
+  "data/detail-miller-county.json": {
+   "raw": 509,
+   "gzip": 294
+  },
+  "data/detail-mitchell-county.json": {
+   "raw": 2158,
+   "gzip": 746
+  },
+  "data/detail-monroe-county.json": {
+   "raw": 3863,
+   "gzip": 1109
+  },
+  "data/detail-montgomery-county.json": {
+   "raw": 454,
+   "gzip": 238
+  },
+  "data/detail-morgan-county.json": {
+   "raw": 3885,
+   "gzip": 1096
+  },
+  "data/detail-murray-county.json": {
+   "raw": 3690,
+   "gzip": 1023
+  },
+  "data/detail-muscogee-county.json": {
+   "raw": 42601,
+   "gzip": 8313
+  },
+  "data/detail-newton-county.json": {
+   "raw": 13041,
+   "gzip": 3165
+  },
+  "data/detail-oconee-county.json": {
+   "raw": 8125,
+   "gzip": 2009
+  },
+  "data/detail-oglethorpe-county.json": {
+   "raw": 668,
+   "gzip": 349
+  },
+  "data/detail-paulding-county.json": {
+   "raw": 17816,
+   "gzip": 4147
+  },
+  "data/detail-peach-county.json": {
+   "raw": 3749,
+   "gzip": 1172
+  },
+  "data/detail-pickens-county.json": {
+   "raw": 5902,
+   "gzip": 1545
+  },
+  "data/detail-pierce-county.json": {
+   "raw": 1627,
+   "gzip": 593
+  },
+  "data/detail-pike-county.json": {
+   "raw": 1750,
+   "gzip": 604
+  },
+  "data/detail-polk-county.json": {
+   "raw": 6132,
+   "gzip": 1620
+  },
+  "data/detail-pulaski-county.json": {
+   "raw": 1689,
+   "gzip": 594
+  },
+  "data/detail-putnam-county.json": {
+   "raw": 3849,
+   "gzip": 1026
+  },
+  "data/detail-quitman-county.json": {
+   "raw": 51,
+   "gzip": 70
+  },
+  "data/detail-rabun-county.json": {
+   "raw": 5502,
+   "gzip": 1274
+  },
+  "data/detail-randolph-county.json": {
+   "raw": 532,
+   "gzip": 314
+  },
+  "data/detail-richmond-county.json": {
+   "raw": 40700,
+   "gzip": 8146
+  },
+  "data/detail-rockdale-county.json": {
+   "raw": 14936,
+   "gzip": 3592
+  },
+  "data/detail-schley-county.json": {
+   "raw": 451,
+   "gzip": 288
+  },
+  "data/detail-screven-county.json": {
+   "raw": 1031,
+   "gzip": 458
+  },
+  "data/detail-seminole-county.json": {
+   "raw": 1344,
+   "gzip": 458
+  },
+  "data/detail-spalding-county.json": {
+   "raw": 8957,
+   "gzip": 2186
+  },
+  "data/detail-stephens-county.json": {
+   "raw": 3505,
+   "gzip": 1086
+  },
+  "data/detail-stewart-county.json": {
+   "raw": 120,
+   "gzip": 113
+  },
+  "data/detail-sumter-county.json": {
+   "raw": 4003,
+   "gzip": 1174
+  },
+  "data/detail-talbot-county.json": {
+   "raw": 51,
+   "gzip": 70
+  },
+  "data/detail-taliaferro-county.json": {
+   "raw": 117,
+   "gzip": 111
+  },
+  "data/detail-tattnall-county.json": {
+   "raw": 1874,
+   "gzip": 683
+  },
+  "data/detail-taylor-county.json": {
+   "raw": 506,
+   "gzip": 284
+  },
+  "data/detail-telfair-county.json": {
+   "raw": 1086,
+   "gzip": 510
+  },
+  "data/detail-terrell-county.json": {
+   "raw": 1145,
+   "gzip": 489
+  },
+  "data/detail-thomas-county.json": {
+   "raw": 7691,
+   "gzip": 1967
+  },
+  "data/detail-tift-county.json": {
+   "raw": 9646,
+   "gzip": 2381
+  },
+  "data/detail-toombs-county.json": {
+   "raw": 5771,
+   "gzip": 1489
+  },
+  "data/detail-towns-county.json": {
+   "raw": 3858,
+   "gzip": 983
+  },
+  "data/detail-treutlen-county.json": {
+   "raw": 335,
+   "gzip": 233
+  },
+  "data/detail-troup-county.json": {
+   "raw": 13407,
+   "gzip": 3112
+  },
+  "data/detail-turner-county.json": {
+   "raw": 944,
+   "gzip": 432
+  },
+  "data/detail-twiggs-county.json": {
+   "raw": 264,
+   "gzip": 183
+  },
+  "data/detail-union-county.json": {
+   "raw": 4528,
+   "gzip": 1235
+  },
+  "data/detail-upson-county.json": {
+   "raw": 2831,
+   "gzip": 867
+  },
+  "data/detail-walker-county.json": {
+   "raw": 4750,
+   "gzip": 1284
+  },
+  "data/detail-walton-county.json": {
+   "raw": 13111,
+   "gzip": 3185
+  },
+  "data/detail-ware-county.json": {
+   "raw": 6288,
+   "gzip": 1619
+  },
+  "data/detail-warren-county.json": {
+   "raw": 535,
+   "gzip": 286
+  },
+  "data/detail-washington-county.json": {
+   "raw": 2491,
+   "gzip": 751
+  },
+  "data/detail-wayne-county.json": {
+   "raw": 3854,
+   "gzip": 1096
+  },
+  "data/detail-webster-county.json": {
+   "raw": 51,
+   "gzip": 68
+  },
+  "data/detail-wheeler-county.json": {
+   "raw": 51,
+   "gzip": 70
+  },
+  "data/detail-white-county.json": {
+   "raw": 9147,
+   "gzip": 2104
+  },
+  "data/detail-whitfield-county.json": {
+   "raw": 17027,
+   "gzip": 3715
+  },
+  "data/detail-wilcox-county.json": {
+   "raw": 217,
+   "gzip": 159
+  },
+  "data/detail-wilkes-county.json": {
+   "raw": 1056,
+   "gzip": 430
+  },
+  "data/detail-wilkinson-county.json": {
+   "raw": 146,
+   "gzip": 122
+  },
+  "data/detail-worth-county.json": {
+   "raw": 1555,
+   "gzip": 545
+  },
+  "data/ga_shapes.json": {
+   "raw": 157502,
+   "gzip": 36007
+  },
+  "data/ids.json": {
+   "raw": 302590,
+   "gzip": 175302
+  }
+ }
+}

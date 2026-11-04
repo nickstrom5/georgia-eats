@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "version": "2026-11-03.1",
+ "records_through": "2026-11-03",
+ "published": "2026-11-03T18:21:55Z",
+ "min_app_build": 1,
+ "files": {
+  "detail-athens-northeast-georgia": {
+   "path": "detail-athens-northeast-georgia-6294f2746b51.json",
+   "sha256": "6294f2746b5187d965b4ee00f79a17d25f777606bc6faacbff561b0e9e5464ca",
+   "bytes": 130321,
+   "rows": 1370
+  },
+  "detail-atlanta-metro": {
+   "path": "detail-atlanta-metro-467c93e35e99.json",
+   "sha256": "467c93e35e99dba5e62174cd91c01353d2aa59fccbbce30b035ed913a6697081",
+   "bytes": 1257386,
+   "rows": 13217
+  },
+  "detail-augusta-east-georgia": {
+   "path": "detail-augusta-east-georgia-62f54d65e57a.json",
+   "sha256": "62f54d65e57adca5686a91e145c077f6ca71638f67c5ae9639f53262a3620275",
+   "bytes": 88262,
+   "rows": 966
+  },
+  "detail-columbus-west-georgia": {
+   "path": "detail-columbus-west-georgia-33122edad9ea.json",
+   "sha256": "33122edad9ea2d8077190ada4d28cb507fe3ad521cc3a3fd4110dc38f61d6d3b",
+   "bytes": 79556,
+   "rows": 891
+  },
+  "detail-macon-middle-georgia": {
+   "path": "detail-macon-middle-georgia-d6bde3eccfcd.json",
+   "sha256": "d6bde3eccfcdb8928ce49216e6fe068ec088fd13a3ef6a1e2e8db5d88941b1d8",
+   "bytes": 140331,
+   "rows": 1530
+  },
+  "detail-north-georgia-mountains": {
+   "path": "detail-north-georgia-mountains-9397a9b6cfce.json",
+   "sha256": "9397a9b6cfce46266cd925cf9c622ccf0bf6264131a2718134aeb6baf8fe85f3",
+   "bytes": 210556,
+   "rows": 2281
+  },
+  "detail-savannah-the-coast": {
+   "path": "detail-savannah-the-coast-30368cec0e6e.json",
+   "sha256": "30368cec0e6e55ce9cf6ef7be0be06e027d9d91b31e73a6208b32489e5eac971",
+   "bytes": 230082,
+   "rows": 2375
+  },
+  "detail-south-georgia": {
+   "path": "detail-south-georgia-b276cb326145.json",
+   "sha256": "b276cb326145cb4cc37bee6cf27835f949dd7c6ab0be9eed1700bd2ecf39ef73",
+   "bytes": 126887,
+   "rows": 1467
+  },
+  "places": {
+   "path": "places-56127fb1f973.json",
+   "sha256": "56127fb1f973727b8a7248805847819519db201a4679d51f018623eb7c66d874",
+   "bytes": 4004038,
+   "rows": 24495
+  }
+ },
+ "counts": {
+  "places": 24495,
+  "files": 9,
+  "bytes": 6267419,
+  "restaurants": 23274
+ },
+ "previous": {
+  "version": "2026-10-28.1",
+  "files": {
+   "detail-athens-northeast-georgia": "detail-athens-northeast-georgia-6294f2746b51.json",
+   "detail-atlanta-metro": "detail-atlanta-metro-467c93e35e99.json",
+   "detail-augusta-east-georgia": "detail-augusta-east-georgia-62f54d65e57a.json",
+   "detail-columbus-west-georgia": "detail-columbus-west-georgia-33122edad9ea.json",
+   "detail-macon-middle-georgia": "detail-macon-middle-georgia-d6bde3eccfcd.json",
+   "detail-north-georgia-mountains": "detail-north-georgia-mountains-9397a9b6cfce.json",
+   "detail-savannah-the-coast": "detail-savannah-the-coast-30368cec0e6e.json",
+   "detail-south-georgia": "detail-south-georgia-b276cb326145.json",
+   "places": "places-38dd43e54df0.json"
+  }
+ }
+}

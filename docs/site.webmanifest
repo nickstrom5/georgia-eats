@@ -1,0 +1,21 @@
+{
+  "name": "Georgia Eats",
+  "short_name": "GA Eats",
+  "description": "Wings, barbecue & Lowcountry: a guide to 23,274 Georgia restaurants.",
+  "start_url": "/georgia-eats/",
+  "display": "browser",
+  "background_color": "#fff8ee",
+  "theme_color": "#1f4d3a",
+  "icons": [
+    {
+      "src": "/georgia-eats/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/georgia-eats/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
