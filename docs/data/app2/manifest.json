@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "version": "2026-11-03.1",
+ "records_through": "2026-11-03",
+ "min_app_build": 1,
+ "files": {
+  "detail-athens-northeast-georgia": {
+   "path": "detail-athens-northeast-georgia-93c1741ec9ce.json",
+   "sha256": "93c1741ec9cef41c571588b0a98d0ea40099d8a79b001dbe02fb9e106b0b8bc6",
+   "bytes": 132411
+  },
+  "detail-atlanta-metro": {
+   "path": "detail-atlanta-metro-549588f72d8e.json",
+   "sha256": "549588f72d8e23dcd6ee97531b4c1b2b1ad37cb6afcab0cb6819174e449c3c66",
+   "bytes": 1278286
+  },
+  "detail-augusta-east-georgia": {
+   "path": "detail-augusta-east-georgia-af3355fac396.json",
+   "sha256": "af3355fac396a04a3a9263cb56304756b3a05405750e104ef2f42519750bf549",
+   "bytes": 89482
+  },
+  "detail-columbus-west-georgia": {
+   "path": "detail-columbus-west-georgia-da14bf28b3e8.json",
+   "sha256": "da14bf28b3e82d6e58c91667ae5df0a829d7bd6c1a027d97aeef4dbc85828c79",
+   "bytes": 80786
+  },
+  "detail-macon-middle-georgia": {
+   "path": "detail-macon-middle-georgia-11c3fd91c5dd.json",
+   "sha256": "11c3fd91c5dd7e1ee0d57befef6379c9100a67c7cda800cb2605481977aaf9c5",
+   "bytes": 142236
+  },
+  "detail-north-georgia-mountains": {
+   "path": "detail-north-georgia-mountains-3bd845b24475.json",
+   "sha256": "3bd845b2447598ea9205de4b2492eeae200dbbd3c881eb4350ff1aca0714f627",
+   "bytes": 213761
+  },
+  "detail-savannah-the-coast": {
+   "path": "detail-savannah-the-coast-882b7d1068fc.json",
+   "sha256": "882b7d1068fc90598b00538727d35f59015b2330c57a781e738c58bc3f0e89dd",
+   "bytes": 234027
+  },
+  "detail-south-georgia": {
+   "path": "detail-south-georgia-5239448dca6a.json",
+   "sha256": "5239448dca6a74814374903466eeaa25af593e98945c593a80880f960c98cc51",
+   "bytes": 128677
+  },
+  "places": {
+   "path": "places-2923d674156e.json",
+   "sha256": "2923d674156edfac49b1d725e134c3fc903eda2bc2a024460b0fbc32ef3390e8",
+   "bytes": 4159607
+  },
+  "state": {
+   "path": "state-cce10131835d.json",
+   "sha256": "cce10131835d793c45b90e1b76601dff3a3f1456bf1c7d55e3d6376a33b605a7",
+   "bytes": 14924
+  }
+ },
+ "counts": {
+  "places": 24495,
+  "restaurants": 23274,
+  "bytes": 6474197
+ }
+}
